@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Fake News Detector</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #3dce96 0%, #af1926 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 2em;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 15px;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      font-size: 16px;
+      font-family: inherit;
+      resize: vertical;
+      transition: border-color 0.3s;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    button {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+      width: 100%;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    #result {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+      border-left: 4px solid #667eea;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      line-height: 1.6;
+      font-size: 16px;
+      color: #333;
+      min-height: 50px;
+    }
+
+    .analyzing {
+      color: #667eea;
+      font-style: italic;
+    }
+
+    .error {
+      color: #e74c3c;
+      border-left-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>AI Fake News Detector</h2>
+
+    <textarea id="newsInput" rows="10" 
+      placeholder="Paste news text here to analyze..."></textarea>
+
+    <button onclick="checkNews()">🔍 Check News</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
