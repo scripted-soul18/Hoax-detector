@@ -1,5 +1,5 @@
 👀 Hoax detector is the AI based web app which will tell you if the information you are reading is just a Hoax.
-☝️ Hax detector (AI + Firebase)
+👇 Hoax detector (AI + Firebase)
 
 Modern, two-tab interface that lets users paste text or submit a URL for AI fact-checking via Gemini. Authenticated users can save and review detection history in Firestore. Built as a static, front-end–only app that you can host anywhere (Firebase Hosting, GitHub Pages, Netlify, etc.).
 
