@@ -108,6 +108,10 @@ Hoax detector/
 - Full-text search + filters in history
 - Batch URL analysis and alerts/notifications
 
+💬Future improvements:-
+future improvements of this project includes a backend using python to secure the API key so that no one can access it via developers tools then maybe more advanced 
+analysis using the ML models in python.
+
 🌟 Credits
 Built with Firebase + Google Gemini. Gradients inspired by modern dashboard UIs. Contributions and tweaks welcome! 🎉
 
