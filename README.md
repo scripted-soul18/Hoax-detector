@@ -12,7 +12,7 @@ Modern, two-tab interface that lets users paste text or submit a URL for AI fact
 
 ▶️Quick Start (5–10 minutes)
 1) Clone / open the project.  
-2) Create a Firebase project (console.firebase.google.com).  👀👀
+2) Create a Firebase project (console.firebase.google.com). 
 3) Register a Web app (web `</>` icon) and copy the `firebaseConfig`.  
 4) Enable Email/Password in Firebase → Authentication → Sign-in method.  
 5) Enable Firestore (start in test mode for dev).  
@@ -82,11 +82,11 @@ Hoax detector/
 ```
 
 👩‍💻Tech Stack 
-- <font color="purple">Frontend:</font> <font color="blue">HTML, CSS, JavaScript (vanilla)</font>
-- <span style="color:green">Hosting</span><br>: <span style="color:pink">Any static host (Firebase Hosting, Netlify, GH Pages)</span><br>
-- <span style="color:red">Backend-as-a-Service</span><br>:<span style="color:blue"> Firebase Auth + Firestore</span><br>
-- <span style="color:pruple">AI</span><br>: <span style="color:pink">Google Gemini API (client-side call)</span><br>
-- <span style="color:orange">URL extraction</span><br>:<span style="color:yellow"> AllOrigins CORS proxy (dev convenience)</span><br>        
+- Frontend: HTML, CSS, JavaScript (vanilla)
+- Hosting: Any static host (Firebase Hosting, Netlify, GH Pages)
+- Backend-as-a-Service: Firebase Auth + Firestore</span><br>
+- AI: Google Gemini API (client-side call)
+- URL extraction: style="color:yellow" AllOrigins CORS proxy (dev convenience)        
 
 
  ☑️☑️Important Notes
